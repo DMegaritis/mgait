@@ -87,8 +87,8 @@ If you use MGait in your research, please cite:
   title     = {MGait: Real-World Gait Pipeline for Wrist-Worn Devices for Multimorbid Populations},
   year      = {2025},
   publisher = {Zenodo},
-  doi       = {xyz},
-  url       = {xyz}
+  doi       = {https://doi.org/10.5281/zenodo.17903930},
+  url       = {https://zenodo.org/records/17903930}
 }
 ```
 
