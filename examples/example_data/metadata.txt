@@ -1,0 +1,1 @@
+{'start_date_time_iso': '2025-03-17T15:02:38.250+00:00', 'sampling_rate_hz': 100.0, 'recording_identifier': ('SDA', 'Trial1'), 'arm_length_cm': 58.7, 'foot_length_cm': 27.4, 'height_m': 1.642, 'leg_length_cm': 88.3, 'sensor_height_m': 1.0759999999999998, 'sensor_locations': ['Lower Back', 'Left Wrist'],  'shoe_length_cm': 27.4, 'participant_id':'MM_100'}

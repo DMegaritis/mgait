@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mgait"
+version = "0.1.0"
+description = "Real-World Gait Pipeline for Wrist-Worn Devices"
+authors = ["DMegaritis <d.megaritis@northumbria.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+pandas = ">=2.2.0"
+numpy = ">=1.25.2"
+matplotlib = ">=3.7.2,<4"
+typing-extensions = "^4.15.0"
+mobgap = "^1.0.0"
+# Optional package for users if needed
+# cwa_reader_rs = { git = "https://github.com/mobilise-d/cwa_reader_rs.git", optional = true }
+
+[tool.poetry.dev-dependencies]
+pytest = "==8.4.2"
+numpydoc = "==1.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
