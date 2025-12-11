@@ -1,5 +1,7 @@
 # MGait: Real-World Gait Pipeline for Wrist-Worn Devices
 
+[![PyPI version](https://img.shields.io/pypi/v/mgait.svg)](https://pypi.org/project/mgait/)
+
 [![DOI](https://zenodo.org/badge/1114654142.svg)](https://doi.org/10.5281/zenodo.17903929)
 
 
