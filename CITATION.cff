@@ -19,6 +19,6 @@ authors:
 version: "0.2.0"
 date-released: 2025-12-12
 doi: "10.5281/zenodo.17914439"
-url: "https://github.com/DMegaritis/multigait"
-repository-code: "https://github.com/YOUR_USERNAME/multigait"
+url: "https://zenodo.org/records/17914439"
+repository-code: "https://github.com/DMegaritis/multigait"
 license: "Apache-2.0"
