@@ -3,7 +3,7 @@ import pandas as pd
 import pytest
 from pandas._testing import assert_frame_equal
 from tpcp.testing import TestAlgorithmMixin
-from mgait.WS.walking_speed import Ws
+from multigait.WS.walking_speed import Ws
 
 
 class TestMetaWs(TestAlgorithmMixin):

@@ -1,8 +1,8 @@
 """In this example we use very short data to show the interpolation."""
 
-from mgait.interpolation_ts.interpolation import Interpolation
-from mgait.utils.ploter import plot_interp
-from mgait.utils.data_loader import load_imu_data_interpolation_lowback, load_imu_data_interpolation_wrist
+from multigait.interpolation_ts.interpolation import Interpolation
+from multigait.utils.ploter import plot_interp
+from multigait.utils.data_loader import load_imu_data_interpolation_lowback, load_imu_data_interpolation_wrist
 
 lowback_data = load_imu_data_interpolation_lowback()
 wrist_data = load_imu_data_interpolation_wrist()

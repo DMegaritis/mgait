@@ -2,7 +2,7 @@ import warnings
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.SL.SL1 import WeinbergSL
+from multigait.SL.SL1 import WeinbergSL
 
 
 class TestWeinbergSL:

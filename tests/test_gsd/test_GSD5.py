@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.GSD.GSD5 import KerenGSD  # adjust import path
-from mgait.utils.data_loader import load_imu_data_wrist
+from multigait.GSD.GSD5 import KerenGSD  # adjust import path
+from multigait.utils.data_loader import load_imu_data_wrist
 
 
 class TestKerenGSD:

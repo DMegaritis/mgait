@@ -1,6 +1,6 @@
 from mobgap.data import LabExampleDataset
-from mgait.CAD.cad import Cadence, CadenceSimple
-from mgait.utils.data_loader import load_imu_data_lowback, load_ICs_lowback, load_imu_data_wrist, load_ICs_wrist
+from multigait.CAD.cad import Cadence, CadenceSimple
+from multigait.utils.data_loader import load_imu_data_lowback, load_ICs_lowback, load_imu_data_wrist, load_ICs_wrist
 
 
 imu_data = load_imu_data_wrist()

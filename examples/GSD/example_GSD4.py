@@ -1,5 +1,5 @@
-from mgait.utils.data_loader import load_imu_data_lowback, load_imu_data_wrist
-from mgait.GSD.GSD4 import MacLeanGSD
+from multigait.utils.data_loader import load_imu_data_lowback, load_imu_data_wrist
+from multigait.GSD.GSD4 import MacLeanGSD
 
 """
 This is an example on how to use the MacLean algo to detect gait events.

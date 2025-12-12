@@ -1,16 +1,16 @@
 import pytest
 import pandas as pd
 import numpy as np
-from mgait.pipeline.multimobility_pipeline import MultimobilityPipeline
-from mgait.CAD.cad import Cadence
-from mgait.GSD.GSD2 import HickeyGSD
-from mgait.ICD.ICD2 import McCamleyIC
-from mgait.SL.SL1 import WeinbergSL
-from mgait.WS.walking_speed import Ws
-from mgait.pipeline.utils._stride_filtering import StrideFiltering
-from mgait.pipeline.utils._wb_assembly import WbAssembly
-from mgait.aggregation._generic_aggregator import GenericAggregator
-from mgait.pipeline.utils._thresholds import get_thresholds
+from multigait.pipeline.multimobility_pipeline import MultimobilityPipeline
+from multigait.CAD.cad import Cadence
+from multigait.GSD.GSD2 import HickeyGSD
+from multigait.ICD.ICD2 import McCamleyIC
+from multigait.SL.SL1 import WeinbergSL
+from multigait.WS.walking_speed import Ws
+from multigait.pipeline.utils._stride_filtering import StrideFiltering
+from multigait.pipeline.utils._wb_assembly import WbAssembly
+from multigait.aggregation._generic_aggregator import GenericAggregator
+from multigait.pipeline.utils._thresholds import get_thresholds
 
 # Minimal example GaitDatasetT fixture
 @pytest.fixture

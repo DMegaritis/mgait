@@ -2,7 +2,7 @@
 # Load example data
 # Loading an example datapoint with data from a wrist worn device
 
-from mgait.pipeline.utils.datapoint_check import check_gait_datapoint_completeness
+from multigait.pipeline.utils.datapoint_check import check_gait_datapoint_completeness
 from examples.example_data.example_constructor import construct_datapoint_from_files
 data = construct_datapoint_from_files()
 
@@ -13,15 +13,15 @@ if not is_complete:
 # %%
 # Running as a single pipeline
 
-from mgait.pipeline.utils._stride_filtering import StrideFiltering
-from mgait.pipeline.utils._wb_assembly import WbAssembly
-from mgait.pipeline.utils._thresholds import get_thresholds, apply_thresholds
-from mgait.aggregation._generic_aggregator import GenericAggregator
-from mgait.WS.walking_speed import Ws
-from mgait.SL.SL1 import WeinbergSL
-from mgait.CAD.cad import Cadence
-from mgait.ICD.ICD2 import McCamleyIC
-from mgait.GSD.GSD3 import KheirkhahanGSD
+from multigait.pipeline.utils._stride_filtering import StrideFiltering
+from multigait.pipeline.utils._wb_assembly import WbAssembly
+from multigait.pipeline.utils._thresholds import get_thresholds, apply_thresholds
+from multigait.aggregation._generic_aggregator import GenericAggregator
+from multigait.WS.walking_speed import Ws
+from multigait.SL.SL1 import WeinbergSL
+from multigait.CAD.cad import Cadence
+from multigait.ICD.ICD2 import McCamleyIC
+from multigait.GSD.GSD3 import KheirkhahanGSD
 
 gsd = KheirkhahanGSD(version="wrist")
 icd = McCamleyIC()
@@ -33,7 +33,7 @@ wba = WbAssembly()
 thresholds = get_thresholds()
 agg = GenericAggregator(**GenericAggregator.PredefinedParameters.single_day)
 
-from mgait.pipeline.multimobility_pipeline import MultimobilityPipeline
+from multigait.pipeline.multimobility_pipeline import MultimobilityPipeline
 
 pipeline = MultimobilityPipeline(
     gait_sequence_detection=gsd,
@@ -68,7 +68,7 @@ pipeline.aggregated_parameters_
 # Running the preliminary suggested pipeline separately.
 # For this, we do not need to specify the algorithms to be used.
 
-from mgait.pipeline.multimobility_pipeline import MultimobilityPipelineSuggested
+from multigait.pipeline.multimobility_pipeline import MultimobilityPipelineSuggested
 
 pipeline = MultimobilityPipelineSuggested(
 )

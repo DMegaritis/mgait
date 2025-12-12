@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 from pandas._testing import assert_frame_equal
-from mgait.CAD.cad import Cadence
+from multigait.CAD.cad import Cadence
 
 class TestCadence:
     @pytest.mark.parametrize("sampling_rate_hz", [10.0, 20.0, 40.0])

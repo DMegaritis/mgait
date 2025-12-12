@@ -2,7 +2,7 @@ import warnings
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.SL.SL3 import BylemansSL
+from multigait.SL.SL3 import BylemansSL
 
 
 class TestBylemansSL:

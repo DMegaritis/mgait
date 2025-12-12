@@ -2,7 +2,7 @@ import warnings
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.SL.SL2 import KimSL
+from multigait.SL.SL2 import KimSL
 
 
 class TestKimSL:

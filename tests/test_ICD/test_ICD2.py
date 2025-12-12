@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.ICD.ICD2 import McCamleyIC
+from multigait.ICD.ICD2 import McCamleyIC
 
 class TestMcCamleyIC:
 

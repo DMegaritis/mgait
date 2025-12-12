@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.GSD.GSD1 import IonescuGSD
-from mgait.utils.data_loader import load_imu_data_wrist
+from multigait.GSD.GSD1 import IonescuGSD
+from multigait.utils.data_loader import load_imu_data_wrist
 
 
 class TestIonescuGSD:

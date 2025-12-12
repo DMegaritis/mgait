@@ -1,5 +1,5 @@
-from mgait.ICD.ICD5 import DucharmeIC
-from mgait.utils.data_loader import load_imu_data_lowback, load_imu_data_wrist
+from multigait.ICD.ICD5 import DucharmeIC
+from multigait.utils.data_loader import load_imu_data_lowback, load_imu_data_wrist
 
 """
 This is an example on how to use the Ducharme algo to detect initial contacts.

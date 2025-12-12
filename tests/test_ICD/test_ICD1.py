@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.ICD.ICD1 import MicoAmigoIC
+from multigait.ICD.ICD1 import MicoAmigoIC
 
 class TestMicoAmigoIC:
 

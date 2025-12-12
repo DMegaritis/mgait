@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.ICD.ICD6 import GuIC
+from multigait.ICD.ICD6 import GuIC
 
 class TestGuIC:
 

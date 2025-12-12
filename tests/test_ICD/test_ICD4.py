@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import pytest
-from mgait.ICD.ICD4 import ZijlstraIC
+from multigait.ICD.ICD4 import ZijlstraIC
 
 class TestZijlstraIC:
 

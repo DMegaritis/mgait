@@ -1,5 +1,5 @@
-from mgait.ICD.ICD4 import ZijlstraIC
-from mgait.utils.data_loader import load_imu_data_lowback, load_imu_data_wrist
+from multigait.ICD.ICD4 import ZijlstraIC
+from multigait.utils.data_loader import load_imu_data_lowback, load_imu_data_wrist
 
 """
 This is an example on how to use the Zijlstra algo to detect initial contacts.
