@@ -17,6 +17,8 @@ Planned future releases include:
 Note on biomechanical definitions
 : The biomechanical logic and gait event definitions implemented in MultiGait are based on the specifications defined within Mobilise-D.
 
+Software developed by Dr Dimitrios Megaritis. Scientific authorship is listed in `CITATION.cff`.
+
 ---
 
 Table of Contents
